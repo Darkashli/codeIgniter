@@ -3,10 +3,16 @@
 	
 	 public function view($page = 'home') {
 		if (!file_exists(APPPATH. 'views/pages/' .$page. '.php')) {
-			echo "your page doesn't exists!";
 			show_404();
 		}
+
 		$data['title'] = ucfirst($page);
+
+		// $this->load->model('TestModel', 'appels');
+
+		// $voorbeeld = $this->appels->getTest();
+		// print_r($voorbeeld);
+
 
 		$this->load->view('templates/header');
 		$this->load->view('pages/'.$page, $data);
