@@ -7,6 +7,7 @@
 		}
 
 		$data['title'] = ucfirst($page);
+		
 
 		// $this->load->model('TestModel', 'appels');
 
