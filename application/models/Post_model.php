@@ -16,8 +16,4 @@
 
       }
    } 
-
-     // public function getTest(){
-      //    return array("your", "Model", "works well");
-      // }
 ?>
