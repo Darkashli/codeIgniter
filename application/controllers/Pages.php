@@ -7,12 +7,6 @@
 		}
 
 		$data['title'] = ucfirst($page);
-		
-
-		// $this->load->model('TestModel', 'appels');
-
-		// $voorbeeld = $this->appels->getTest();
-		// print_r($voorbeeld);
 
 
 		$this->load->view('templates/header');

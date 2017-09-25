@@ -9,3 +9,7 @@ body{
 	margin: 3px;
 	display: block;
 }
+
+li{
+	font-size: 14px;
+}

@@ -7,7 +7,7 @@ class Test extends CI_Controller {
          parent::__construct(); 
          // $this->load->model('model_name');
          echo "This is the main header!<br>";
-      } 
+     } 
     
     public function index(){
     	echo "This is the default method";
