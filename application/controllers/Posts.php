@@ -37,7 +37,7 @@
 
 		$this->form_validation->set_rules('title', 'Title', 'required');
 		$this->form_validation->set_rules('body', 'Body', 'required');
-      
+		
         if ($this->form_validation->run() === FALSE) {
  
 		$this->load->view('templates/header');

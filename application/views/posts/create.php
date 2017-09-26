@@ -1,4 +1,5 @@
 <h1><?= $title; ?></h1>
+  <!-- form_validation have been created in cofig/$autoload['libraries'], second step will be in controller/posts/create -->
 
 <?php echo validation_errors(); ?>
 
@@ -10,7 +11,7 @@
 
   <div class="form-group">
     <label>Body</label>
-    <textarea class="form-control" name="body" placeholder="Add Body"></textarea>
+    <textarea id="editor1" class="form-control" name="body" placeholder="Add Body"></textarea>
   </div>
  
   <button type="submit" class="btn btn-primary">create</button>

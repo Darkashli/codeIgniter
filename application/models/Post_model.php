@@ -7,8 +7,8 @@
 
       public function get_posts($slug = FALSE){
          if ($slug === FALSE) {
+             //ASC (older to newer posts)
              $this->db->order_by('id', 'DESC');
-             //ASC inversti maken!
              $query = $this->db->get('posts');
          return $query->result_array();
             
